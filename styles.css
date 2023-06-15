@@ -1,0 +1,100 @@
+@font-face{
+    src: url(fonts/Sabo-Filled.otf);
+    font-family: sabo;
+}
+@font-face{
+    src:url(fonts/Sabo-Regular.otf);
+    font-family:sabo-reg;
+}
+
+@font-face{
+    src:url(fonts/Masaaki-Regular.otf);
+    font-family:masaaki;
+}
+
+/*Structural Elements*/
+body{
+	background:#052948;
+	font-family: sabo;
+    color:#FAF6D4;
+}
+#content{
+	width:60%;
+	margin:auto;
+	background:#263ABD;
+
+}
+header{
+	padding:20px;
+}
+
+h1{background:#263ABD;
+	padding:20px;
+	margin:auto;
+	border-radius:5px;
+	text-align:center;
+}
+h3{
+    text-align:center;
+}
+.center{
+    display:block;
+    margin:auto;
+}
+p{
+    font-family:Geneva;
+}
+#copyright {
+	background:#212226;
+	text-align:center;
+	width:60%;
+	margin:auto;
+}
+
+.hidden1{
+	display:none;
+}
+
+.hidden2{
+	display:none;
+}
+
+/*Navigation*/
+#main-nav{
+	padding:5px;
+}
+#main-nav ul{
+	padding-left:0px;
+}
+#main-nav li{
+	list-style: none;
+    margin-top:20px;
+}
+#main-nav a{
+	text-decoration: none;
+	background:#BF1865;
+	padding:5px;
+    color:#FAF6D4;
+}
+#main-nav a:hover{
+	Background:#90D532;
+}
+
+/*Contact Me*/
+form{
+	margin:auto;
+	padding:20px;
+}
+
+
+/*Typography*/
+
+/*Larger Resolutions*/
+@media (min-width:720px){
+    #main-nav li{
+        display:inline;
+    }
+    #main-nav ul{
+        text-align:center;
+    }
+}
